@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+fieldset {
+    border: none;
+}
+
+h3 {
+    font-family: 'Trebuchet MS';
+    font-size: 22px;
+    color: darkmagenta;
+    padding: 25px 600px 0px;
+    display: inline-block;
+    float: right;
+    margin-left: 50%;
+}
+
+html {
+    background-color: floralwhite;
+    contain: content;
+    background-image: url(https://img.freepik.com/vetores-gratis/dialogo-com-chatbot-resposta-de-inteligencia-artificial-a-pergunta-suporte-tecnico-mensagens-instantaneas-operador-de-linha-direta-assistente-de-ia-consultor-de-bot-do-cliente-ilustracao-isolada-da-metafora-do-conceito_335657-1154.jpg?w=826&t=st=1671551124~exp=1671551724~hmac=ecf9c547fe0ee97ac5dfcd0898a5fe6ce470dbd5b8b52ba7b389c87b2d0295ea);
+    background-position: left top;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    max-width: 1200px;
+    padding: 20px 20px 20px;
+}
+
+form {
+    display: block;
+    padding: 15px 500px 15px;
+}
+
+input.info {
+    font-family: 'Segoe UI';
+    color: dimgray;
+    font-style: oblique;
+    width: 250px;
+    text-align: center;
+    border-color: lightgray;
+    border-style: ridge;
+}
+
+.botao {
+    font-family: 'Trebuchet MS';
+    color: white;
+    width: 90px;
+    height: 40px;
+    background-color: darkmagenta;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 11%;
+    float: right;
+}
+
+.botao:hover {
+    background-color: magenta;
+    color: white;
+    font-style:oblique;
+}

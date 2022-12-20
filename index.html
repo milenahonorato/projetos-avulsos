@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Página de Formulário Básico</title>
+</head>
+<body>
+            <fieldset>
+                <legend>
+                <div><h3>Seus Dados</h3></div>
+        <form>
+            <div>
+        <input class ="info" type="text" name="name" id="idnome" required placeholder="Seu nome"pattern="([aA-zZ]+)">
+            </div>
+
+        <br>
+            <div>
+        <input class ="info" type="tel" name="tel" id="idtel" required placeholder="(XX) XXXX-XXXX" pattern="((00)-zZ]+)">
+            </div>
+
+        <br>
+            <div>
+        <input class ="info" type="email" name="email" id="idemail" required placeholder="email@email.com.br" pattern="([aA-zZ]+[@.-_])">
+            </div>
+
+        <br>
+            <div>
+        <input class ="info" type="date" name="birthday" id="idbday" required>
+            </div>
+
+        <br>
+        <span>
+        <input class="botao" type="reset" value="Limpar">
+        <input class="botao" type="button" value="Enviar">
+        </span>
+        </form>
+            </fieldset>
+                </legend>
+</body>
+</html>
