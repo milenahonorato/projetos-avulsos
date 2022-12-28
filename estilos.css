@@ -10,20 +10,13 @@ h3 {
     color: darkmagenta;
 }
 
-body {
+body, p {
     text-align: center;
     position: absolute;
     width:100%;
+    font-family: 'Trebuchet MS';
+    color: gray;
 }
-
-.c-loader {
-    animation: is-rotating 1s infinite;
-    border: 6px solid #e5e5e5;
-    border-radius: 50%;
-    border-top-color: #51d4db;
-    height: 50px;
-    width: 50px;
-  }
 
 .formulario {
     max-width: 650px;
@@ -51,37 +44,40 @@ body {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     resize: none;
   }
-  .formulario input:focus, .formulario textarea:focus {
-     
+
+  .formulario input:focus, .formulario textarea:focus { 
     color: darkmagenta; 
     -moz-box-shadow: 0 0px 2px darkmagenta !important;
     -webkit-box-shadow: 0 0px 2px darkmagenta !important;
     box-shadow: 0 0px 2px darkmagenta !important;
   }
+
   .formulario .btn-submit {
     color: #fff;
     background: darkmagenta ;
     cursor: pointer;
     transition: 0.5s;
   }
+
   .formulario .btn-submit:hover {
-   
     background-color:#424242;
     -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
     -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
     box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   }
+
   .formulario textarea {
     height: 140px;
   }
+
   .metade {
     float: left;
     width: 48%;
     margin-bottom: 1em;
   }
+
   .right { width:50%;}
   .left  { margin-right:2%; }
-  @media (max-width: 768px) {
-    
+  @media handheld and (min-width: 700px) and (orientantion: landscape){
     .metade { width:100%; float:none; margin-bottom:0; }
   }
